@@ -1,5 +1,5 @@
 class Solution {
-        public int[] findErrorNums(int[] arr) {
+    public int[] findErrorNums(int[] arr) {
         int i = 0;
         while (i < arr.length) {
             int correct = arr[i] - 1;
